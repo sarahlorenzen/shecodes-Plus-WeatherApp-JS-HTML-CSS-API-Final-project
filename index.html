@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Weather App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <main class="Weather">
+      <section class="CityWeatherForm">
+        <form>
+          <input
+            placeholder="Enter a city.."
+            class="search-input"
+            type="search"
+          />
+          <input class="search-button" type="submit" value="Search" />
+        </form>
+      </section>
+
+      <section class="CityWeatherData flex">
+        <div class="CityData">
+          <h1>Bend</h1>
+          <ul>
+            <li><span>Monday 12:40pm</span>, Cloudy</li>
+            <li>
+              Humidity: <strong>59%</strong>, Wind: <strong>11 mph</strong>
+            </li>
+          </ul>
+        </div>
+        <div class="WeatherIcon"></div>
+        <div class="city-temp">
+          <span class="temp">13</span><span class="unit">°F</span>
+        </div>
+      </section>
+
+      <section class="CityWeatherForecast flex">
+        <div class="DailyForecast">
+          <p class="day">MON</p>
+          <p class="WeatherIcon"></p>
+          <p class="temp-max">43°</p>
+          <p class="temp-min">28°</p>
+        </div>
+
+        <div class="DailyForecast">
+          <p class="day">TUE</p>
+          <p class="WeatherIcon"></p>
+          <p class="temp-max">46°</p>
+          <p class="temp-min">37°</p>
+        </div>
+
+        <div class="DailyForecast">
+          <p class="day">WED</p>
+          <p class="WeatherIcon"></p>
+          <p class="temp-max">46°</p>
+          <p class="temp-min">29°</p>
+        </div>
+
+        <div class="DailyForecast">
+          <p class="day">THU</p>
+          <p class="WeatherIcon"></p>
+          <p class="temp-max">47°</p>
+          <p class="temp-min">29°</p>
+        </div>
+
+        <div class="DailyForecast">
+          <p class="day">FRI</p>
+          <p class="WeatherIcon"></p>
+          <p class="temp-max">52°</p>
+          <p class="temp-min">34°</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        This project was coded by Sarah Lorenzen for
+        <a href="https://www.shecodes.io/" target="_blank">SheCodes Bootcamp</a>
+        and is <a href="#" target="_blank">open-sourced on GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
